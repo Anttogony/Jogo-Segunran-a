@@ -34,7 +34,7 @@ public class B204Mat extends CenarioP {
 					Quiz questao = new Quiz();
 					int resul = questao.perguntar(ler("src/recursos/arquivos/stage.txt"));
 					JOptionPane.showMessageDialog(null,
-							"SUA NOTA HOJE FOI: " + resul + "\nVocê acertou " + resul / 2 + " questões");
+							"SUA NOTA HOJE FOI: " + resul + "\nVocê acertou " + resul / 2 + " questões\n\n\nGO HOME!");
 					escrever("src/recursos/arquivos/RPMTInota1.txt", resul);
 					try {
 						escrever("src/recursos/arquivos/stage.txt", 4);
@@ -146,7 +146,7 @@ public class B204Mat extends CenarioP {
 				try {
 					if (ler("src/recursos/arquivos/stage.txt") == 3) {
 						janela.setVisible(false);
-						new Imagens("july.png", 15);
+						new Imagens("july1.png", 15);
 					}
 					if (ler("src/recursos/arquivos/stage.txt") == 8) {
 						janela.setVisible(false);

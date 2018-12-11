@@ -33,7 +33,7 @@ public class Quiz {
 
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
-						"*********************************************PRATICAS DE LEITURA E ESCRITA EM PORGUGUES*********************************************\n\n*****Dia 1*****\n\nPergunta 2: A leitura tem vários aspectos. Nesta disciplina ela irá ser abordada como:\n\n1 - Processo de interrelacionamente\n2 - Processo de semiotização\n\n3 - Processo de formação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************PRATICAS DE LEITURA E ESCRITA EM PORGUGUES*********************************************\n\n*****Dia 1*****\n\nPergunta 2: A leitura tem vários aspectos. Nesta disciplina ela irá ser abordada como:\n\n1 - Processo de interrelacionamente\n2 - Processo de semiotização\n3 - Processo de formação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -150,6 +150,156 @@ public class Quiz {
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
 						"*********************************************PRATICAS DE LEITURA E ESCRITA EM INGLÊS*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Escolha a forma correta do verbo to be no Presente Simples do inglês do pronome: We ___\n\n1 - is\n2 - are\n3 - am\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+		}
+		
+		if (s == 2) {
+
+			int v = 0;
+			String resposta = "";
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 1: Qual dos itens abaixo não está na ementa da disciplina?\n\n1 - Computação gráfica\n2 - Ética em Computação\n3 - Áreas da Computação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 2: Qual dos itens abaixo está na ementa da disciplina?\n\n1 - Sociedade da informação\n2 - Sociedade contemporânea\n3 - Sociedade da interrelação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 3: TI e comunicação estão nesta disciplina ?\n\n1 - sim\n2 - não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 4: Mercado de Trabalho em TI está nesta disciplina?\n\n1 - sim\n2 - não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Quais dos aspectos abaixo estão na ementa da disciplina?\n\n1 - sociais, culturais e ambientais\n2 - culturais, relacionais e socias\n3 - relacionais, ambientais e culturais\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+		}
+		
+		if (s == 3) {
+
+			int v = 0;
+			String resposta = "";
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 1: De acordo com a ementa, esta disciplia tem o objetivo de...\n\n1 - Interpretação e Resolução de Problemas relevantes para Tecnologia da Informação\n2 - Raciocínio lógico e e interpretação de problemas da Tecnologia da Informação\n3 - Resolução de problemas em sistemas de Tecnologia da Informação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 2: Qual dos conteúdos abaixo está na ementa da disciplina?\n\n1 - Conjuntos\n2 - Logaritmo\n3 - Números complexos\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 3: Qual dos conteúdos abaixo não está na ementa da disciplina?\n\n1 - Análise dos primos\n2 - Sistemas de equações\n3 - Análise combinatória\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2) {
+				resposta = JOptionPane.showInputDialog(
+
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 4: Polinômios e funções polinomiais estão na ementa da disciplia?\n\n1 - Sim\n2 - Não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Trigonometria está na ementa da disciplia?\n\n1 - Sim\n2 - Não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -298,6 +448,81 @@ public class Quiz {
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
 						"*********************************************PRATICAS DE LEITURA E ESCRITA EM INGLÊS*********************************************\n\n*****Dia 2*****\n\nPergunta 5: Qual das frases abaixo não está em inglês?\n\n1 - Jeu denfant\n2 - The computer is good\n3 - Child's play\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+		}
+		
+		if (s == 8) {
+
+			int v = 0;
+			String resposta = "";
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 1: Quando um objeto x é um dos elementos que compõem o conjunto A dizemos que:\n\n1 - x pertence a A\n2 - x está contido em A\n3 - x está dentro de A\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 2: Se todos os elementos de um conjunto B também são elementos de um conjunto A, dizemos que:\n\n1 - B está contido em A.\n2 - B é um conjunto de A\n3 - A é um dominante de B\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 3: A interseção entre os conjuntos A = {1, 2, 3} e B = {2, 3, 4} é:\n\n1 - {2, 3}\n2 - {1, 2, 3, 4}\n3 - {1, 4}\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 4: A união entre os conjuntos A = {1, 2, 3} e B = {2, 3, 4} é:\n\n1 - {2, 3}\n2 - {1, 2, 3, 4}\n3 - {1, 4}\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 5: A interseção de A = {1, 2} com B = {1, 3} unido com C = {3, 4} é igual a:\n\n1 - {1, 3, 4}\n2 - {1, 2, 3, 4}\n3 - {1}\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
