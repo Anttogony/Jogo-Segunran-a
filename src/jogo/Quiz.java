@@ -173,7 +173,7 @@ public class Quiz {
 				} catch (Exception e) {
 					v = 0;
 				}
-				if (v == 2)
+				if (v == 1)
 					nota += 2;
 			}
 
@@ -181,7 +181,7 @@ public class Quiz {
 
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
-						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 2: Qual dos itens abaixo está na ementa da disciplina?\n\n1 - Sociedade da informação\n2 - Sociedade contemporânea\n3 - Sociedade da interrelação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 2: Qual dos itens abaixo está na ementa da disciplina?\n\n1 - Sociedade contemporânea\n2 - Sociedade da informação\n3 - Sociedade da interrelação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -215,7 +215,7 @@ public class Quiz {
 				} catch (Exception e) {
 					v = 0;
 				}
-				if (v == 3)
+				if (v == 1)
 					nota += 2;
 			}
 
@@ -224,7 +224,7 @@ public class Quiz {
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
 
-						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Quais dos aspectos abaixo estão na ementa da disciplina?\n\n1 - sociais, culturais e ambientais\n2 - culturais, relacionais e socias\n3 - relacionais, ambientais e culturais\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Quais dos aspectos abaixo estão na ementa da disciplina?\n\n1 - culturais, relacionais e socias\n2 - sociais, culturais e ambientais\n3 - relacionais, ambientais e culturais\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -256,7 +256,7 @@ public class Quiz {
 
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
-						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 2: Qual dos conteúdos abaixo está na ementa da disciplina?\n\n1 - Conjuntos\n2 - Logaritmo\n3 - Números complexos\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 2: Qual dos conteúdos abaixo está na ementa da disciplina?\n\n1 - Logaritmo\n2 - Conjuntos\n3 - Números complexos\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -291,7 +291,7 @@ public class Quiz {
 				} catch (Exception e) {
 					v = 0;
 				}
-				if (v == 3)
+				if (v == 1)
 					nota += 2;
 			}
 
@@ -299,7 +299,7 @@ public class Quiz {
 
 			while (v != 1 && v != 2) {
 				resposta = JOptionPane.showInputDialog(
-						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Trigonometria está na ementa da disciplia?\n\n1 - Sim\n2 - Não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 1*****\n\nPergunta 5: Trigonometria está na ementa da disciplia?\n\n1 - Não\n2 - Sim\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -458,14 +458,42 @@ public class Quiz {
 			}
 		}
 		
-		if (s == 8) {
+		if (s == 7) {
 
 			int v = 0;
 			String resposta = "";
 
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
-						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 1: Quando um objeto x é um dos elementos que compõem o conjunto A dizemos que:\n\n1 - x pertence a A\n2 - x está contido em A\n3 - x está dentro de A\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 2*****\n\nPergunta 1: O que é técnica?\n\n1 - Conjunto de precedimentos ligados a uma arte ou ciência\n2 - Maneira pelas quais resolvemos todos os problemas da sociedade\n3 - É a mulher do técnico\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 2*****\n\nPergunta 2: O que é tecnologia?\n\n1 - Teoria geral e/ou estudo sistemático sobre técnicas, processos, meios...\n2 - Teoria específica e/ou estudo sistemático sobre técnicas, processos, meios...\n3 - Teoria geral e/ou maneira sistemáticas técnicas para resolver processos.\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 2*****\n\nPergunta 3: Qual das duas é mais abstrata?\n\n1 - Técnica\n2 - Tecnologia\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -479,7 +507,53 @@ public class Quiz {
 
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
-						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 2: Se todos os elementos de um conjunto B também são elementos de um conjunto A, dizemos que:\n\n1 - B está contido em A.\n2 - B é um conjunto de A\n3 - A é um dominante de B\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 2*****\n\nPergunta 4: Qual dos itens abaixo pode ser sociedade?\n\n1 - Comunidade independente\n2 - Comunidade interdepente\n3 - Comunidade concorrente\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 2*****\n\nPergunta 5: Uma comunidade organizada envolve grau considerável de:\n\n1 - Comunicação e cooperação\n2 - Socialização e meios\n3 - Cooperação e Sindicalização\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+		}
+		
+		if (s == 8) {
+
+			int v = 0;
+			String resposta = "";
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 1: Quando um objeto x é um dos elementos que compõem o conjunto A dizemos que:\n\n1 - x está contido em A\n2 - x pertence a A\n3 - x está dentro de A\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 2: Se todos os elementos de um conjunto B também são elementos de um conjunto A, dizemos que:\n\n1 - B é um conjunto de A\n2 - A é um dominante de B\n3 - B está contido em A\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -508,7 +582,7 @@ public class Quiz {
 			while (v != 1 && v != 2 && v != 3) {
 				resposta = JOptionPane.showInputDialog(
 
-						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 4: A união entre os conjuntos A = {1, 2, 3} e B = {2, 3, 4} é:\n\n1 - {2, 3}\n2 - {1, 2, 3, 4}\n3 - {1, 4}\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 2*****\n\nPergunta 4: A união entre os conjuntos A = {1, 2, 3} e B = {2, 3, 4} é:\n\n1 - {1, 4}\n2 - {1, 2, 3, 4}\n3 - {2, 3}\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
 				try {
 					v = Integer.parseInt(resposta);
 				} catch (Exception e) {
@@ -680,6 +754,155 @@ public class Quiz {
 					nota += 2;
 			}
 		}
+		
+		if (s == 12) {
+
+			int v = 0;
+			String resposta = "";
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 3*****\n\nPergunta 1: Qual dos aspectos abaixo não está na sociedade da informação?\n\n1 - Divulgar um grande número de infomrações\n2 - Infra-estrutura de acesso\n3 - Melhoria na velocidade de acesso a comunicação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 3*****\n\nPergunta 2: De acordo com a privacidade individual, é correto afirma que:\n\n1 - Devemos forcer nossos dados logo que se pede para agilizar algum processo\n2 - Devemos buscar conhecer o maior número de dados de outras pessoas\n3 - Devemos ter cuidado no exposição dos nossos dados\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 3*****\n\nPergunta 3: De acordo com a melhoria de acesso a comunicação, devemos...\n\n1 - Socializar o acesso a comunicação\n2 - Distribuir todas as informações\n3 - Compartilhar fake news\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 3*****\n\nPergunta 4: As politicas de regulamentação são importantes para:\n\n1 - Burocratizas as informações para evitar fake news\n2 - Regulamentar o acesso\n3 - Colocar politos na internet\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************TECNOLOGIA DA INFORMAÇÃO E SOCIEDADE*********************************************\n\n*****Dia 3*****\n\nPergunta 5: A segurança nas transações financeiras são para:\n\n1 - Evitar o vazamento de dados importantes\n2 - Evitar que algumas pessoas façam essas transações\n3 - Evitar esse tipo de transação\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+		}
+		
+		if (s == 13) {
+
+			int v = 0;
+			String resposta = "";
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 3*****\n\nPergunta 1: O que é a atitimética?\n\n1 - Ramo da matemática que lida com os números e operações\n2 - Ramo da matemática que soma divide subtrai e multiplica números\n3 - O estudo da complexidade dos números\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 3*****\n\nPergunta 2: A operação de subtração é associativa?\n\n1 - sim\n2 - não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 3*****\n\nPergunta 3: A operação de subtração é comutativa?\n\n1 - sim\n2 - não\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 1)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 3*****\n\nPergunta 4: Qual dos números abaixo é divisível por 2?\n\n1 - 351\n2 - 654\n3 - 689\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 2)
+					nota += 2;
+			}
+
+			v = 0;
+
+			while (v != 1 && v != 2 && v != 3) {
+				resposta = JOptionPane.showInputDialog(
+						"*********************************************RESOLUÇÃO DE PROBLEMAS MATEMÁTICOS PARA TI*********************************************\n\n*****Dia 3*****\n\nPergunta 5: Pergunta 5: Qual dos números abaixo é divisível por 3?\n\n1 - 658\n2 - 946\n3 - 351\n\n\n\n\n\n\n\n**Digite o valor correspondente a sua resposta:");
+				try {
+					v = Integer.parseInt(resposta);
+				} catch (Exception e) {
+					v = 0;
+				}
+				if (v == 3)
+					nota += 2;
+			}
+		}
+
 
 		return nota;
 	}

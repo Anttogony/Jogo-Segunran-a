@@ -34,7 +34,7 @@ public class B204 extends CenarioP {
 					Quiz questao = new Quiz();
 					int resul = questao.perguntar(ler("src/recursos/arquivos/stage.txt"));
 					JOptionPane.showMessageDialog(null,
-							"SUA NOTA HOJE FOI: " + resul + "\nVocê acertou " + resul / 2 + " questões");
+							"SUA NOTA HOJE FOI: " + resul + "\nVocê acertou " + resul / 2 + " questões\n\n\n*Sua próxima aula e na B - 203");
 					escrever("src/recursos/arquivos/PLEI1nota1.txt", resul);
 					try {
 						escrever("src/recursos/arquivos/stage.txt", 2);
